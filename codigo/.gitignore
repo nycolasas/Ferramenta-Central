@@ -1,0 +1,27 @@
+# Ambiente local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build/empacotamento e artefatos locais
+build/
+dist/
+archive/
+artifacts/
+*.spec
+
+# Dados locais gerados
+*.xlsx
+!data/reference/Feriados.xlsx
+!data/processed/planilha_bruta.xlsx
+!data/processed/relatorio_atrasados.xlsx
+!data/processed/resultado_processamento.xlsx
+!data/raw/relatorios_consolidados.xlsx
+
+# VS Code / editor
+.vscode/
+
+# Python virtualenv
+.venv/
+venv/

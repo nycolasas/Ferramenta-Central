@@ -1,0 +1,1 @@
+-Jamais fazer requisições diretas no servidor. Sempre mantendo a simulação do usuário.
